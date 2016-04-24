@@ -1,0 +1,31 @@
+[Adblock Plus 2.0]
+! Ttle: Kisuke's Czech supplementary blocklist
+! Last change: 17/04/2016
+! Expires: 2 days
+! Czech filter created for uBlock Origin and Qupzilla Browser
+! Just supplementary to other filters - I am blocking only content that pisses me off and are not blocked by EasyList or EasyList CZ/SK
+! You can send me suggestions which I should add to this filter to my mailbox kisuke[zavi_nac]kisuke.cz 
+
+||performax.cz
+||games.tiscali.cz/*/partnerJsApi*
+||games.tiscali.cz/*/extra/*
+games.tiscali.cz##div[class^="row-main "]
+games.tiscali.cz###intAds
+||gemius.pl
+games.tiscali.cz###cookie-bar
+||hp.timg.cz/js/*
+||games.tiscali.cz/js/*
+games.tiscali.cz##div[style^="width:auto;px; height:auto;px"]
+||games.tiscali.cz/*typkodu*
+
+||suzukiclub.cz/*/common_js*
+suzukiclub.cz#@#.reklama
+
+||bbelements.com
+||adform.net
+||chartbeat.com
+||google-analytics.com
+||googletagmanager.com
+||1gr.cz/*gemius*
+||adform.net
+||warforum.cz/post.swf
