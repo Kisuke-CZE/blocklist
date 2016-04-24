@@ -10,8 +10,8 @@ Just supplementary to other filters - I am blocking only content that pisses me 
 Feel free to send me suggestions which I should add to this filter to my mailbox kisuke[zavi_nac]kisuke.cz. I will consider to add some filter for desired webpage.
 
 ##Usage
-Just add this filter URL to zour adblocking software:
-> 
+Just add this filter URL to your adblocking software:
+> https://raw.githubusercontent.com/Kisuke-CZE/blocklist/master/blocklist
 
 
 
