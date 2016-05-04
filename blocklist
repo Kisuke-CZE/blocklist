@@ -18,11 +18,8 @@ games.tiscali.cz###cookie-bar
 games.tiscali.cz##div[style^="width:auto;px; height:auto;px"]
 ||games.tiscali.cz/*typkodu*
 @@games.tiscali.cz/*gallery.js*
-
-
 ||suzukiclub.cz/*/common_js*
 suzukiclub.cz#@#.reklama
-
 ||bbelements.com
 ||adform.net
 ||chartbeat.com
@@ -31,3 +28,10 @@ suzukiclub.cz#@#.reklama
 ||1gr.cz/*gemius*
 ||adform.net
 ||warforum.cz/post.swf
+lupa.cz##script:contains(adBlock)
+lupa.cz##script:contains(AdBlock)
+lupa.cz##script:contains(adblock)
+root.cz##script:contains(adBlock)
+root.cz##script:contains(AdBlock)
+root.cz##script:contains(adblock)
+
