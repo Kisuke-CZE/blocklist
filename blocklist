@@ -6,20 +6,9 @@
 ! Just supplementary to other filters - I am blocking only content that pisses me (very annoying ads, some bad javascript, ...) off and are not blocked by some other filter I am using.
 ! Feel free to send me suggestions which I should add to this filter to my mailbox kisuke[zavi_nac]kisuke.cz. I will consider to add some filter for desired webpage. 
 
+! Generic adserving and bad JS websites 
 ||performax.cz
-||games.tiscali.cz/*/partnerJsApi*
-||games.tiscali.cz/*/extra/*
-games.tiscali.cz##div[class^="row-main "]
-games.tiscali.cz###intAds
 ||gemius.pl
-games.tiscali.cz###cookie-bar
-||hp.timg.cz/js/*
-||games.tiscali.cz/js/*
-games.tiscali.cz##div[style^="width:auto;px; height:auto;px"]
-||games.tiscali.cz/*typkodu*
-@@games.tiscali.cz/*gallery.js*
-||suzukiclub.cz/*/common_js*
-suzukiclub.cz#@#.reklama
 ||bbelements.com
 ||adform.net
 ||chartbeat.com
@@ -27,11 +16,28 @@ suzukiclub.cz#@#.reklama
 ||googletagmanager.com
 ||1gr.cz/*gemius*
 ||adform.net
-||warforum.cz/post.swf
-lupa.cz##script:contains(adBlock)
-lupa.cz##script:contains(AdBlock)
-lupa.cz##script:contains(adblock)
-root.cz##script:contains(adBlock)
-root.cz##script:contains(AdBlock)
-root.cz##script:contains(adblock)
 
+! suzukiclub.cz
+||suzukiclub.cz/*/common_js*
+suzukiclub.cz#@#.reklama
+
+! games.cz, tiscali.cz
+tiscali.cz##div[class^="xzone"]
+||tiscali.cz/*/partnerJsApi*
+||tiscali.cz/*/extra/*
+tiscali.cz##div[class^="row-main "]
+tiscali.cz###intAds
+tiscali.cz###cookie-bar
+||timg.cz/js/*
+||tiscali.cz/js/*
+tiscali.cz##div[style^="width:auto;px; height:auto;px"]
+||tiscali.cz/*typkodu*
+@@tiscali.cz/*gallery.js*
+
+! warforum.cz
+||warforum.cz/post.swf
+
+! lupa.cz, root.cz
+lupa.cz,root.cz##script:contains(adBlock)
+lupa.cz,root.cz##script:contains(AdBlock)
+lupa.cz,root.cz##script:contains(adblock)
