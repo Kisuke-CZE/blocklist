@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Ttle: Kisuke's Czech supplementary blocklist
-! Last change: 04/05/2016
+! Last change: 06/05/2016
 ! Expires: 2 days
 ! Czech filter created for uBlock Origin and Qupzilla Browser
 ! Just supplementary to other filters - I am blocking only content that pisses me (very annoying ads, some bad javascript, ...) off and are not blocked by some other filter I am using.
@@ -37,7 +37,7 @@ tiscali.cz##div[style^="width:auto;px; height:auto;px"]
 ! warforum.cz
 ||warforum.cz/post.swf
 
-! lupa.cz, root.cz
-lupa.cz,root.cz##script:contains(adBlock)
-lupa.cz,root.cz##script:contains(AdBlock)
-lupa.cz,root.cz##script:contains(adblock)
+! lupa.cz, root.cz, mesec.cz
+mesec.cz,lupa.cz,root.cz##script:contains(adBlock)
+mesec.cz,lupa.cz,root.cz##script:contains(AdBlock)
+mesec.cz,lupa.cz,root.cz##script:contains(adblock)
