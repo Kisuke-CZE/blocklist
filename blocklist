@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Ttle: Kisuke's Czech supplementary blocklist
-! Last change: 11/05/2016
+! Last change: 04/06/2016
 ! Expires: 2 days
-! Czech filter created for uBlock Origin and Qupzilla Browser
+! Czech filter created for uBlock Origin
 ! Just supplementary to other filters - I am blocking only content that pisses me (very annoying ads, some bad javascript, ...) off and are not blocked by some other filter I am using.
 ! Feel free to send me suggestions which I should add to this filter to my mailbox kisuke[zavi_nac]kisuke.cz. I will consider to add some filter for desired webpage.
 
@@ -15,6 +15,7 @@
 ||google-analytics.com
 ||googletagmanager.com
 ||1gr.cz/*gemius*
+||1gr.cz/*reklama*
 ||adform.net
 
 ! suzukiclub.cz
@@ -41,3 +42,9 @@ tiscali.cz##div[style^="width:auto;px; height:auto;px"]
 vitalia.cz,120na80.cz,mesec.cz,lupa.cz,root.cz##script:contains(adBlock)
 vitalia.cz,120na80.cz,mesec.cz,lupa.cz,root.cz##script:contains(AdBlock)
 vitalia.cz,120na80.cz,mesec.cz,lupa.cz,root.cz##script:contains(adblock)
+
+! idnes.cz
+idnes.cz##script:contains(Track)
+idnes.cz##script:contains(track)
+idnes.cz##script:contains(Ads)
+idnes.cz##script:contains(bmone2)

@@ -2,16 +2,35 @@
 
 ## About
 
-Czech filter created for uBlock Origin and Qupzilla Browser.
+Czech filter created for uBlock Origin.
 
 Just supplementary to other filters - I am blocking only content that pisses me (very annoying ads, some bad javascript, ...) off and are not blocked by some other filter I am using.
 
-###Contact
+### Contact
 Feel free to send me suggestions how to improve this filter to my mailbox kisuke[zavi_nac]kisuke.cz. I will consider to add some filter for desired webpage.
 
-##Usage
+## Usage
 Just add this filter URL to your adblocking software:
 > https://raw.githubusercontent.com/Kisuke-CZE/blocklist/master/blocklist
 
+## Recommended browsers
+Since I was recieving questions about filter functionality, I explain my browser setup a little.
 
+My filter is using [Inline script filtering](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering). Since Chromium-based browsers do not support this feature (because Google does not want to users be able to filter all bad scripts), some rules in my filter will not work in Chromium, Chrome, Vivaldi, or any Chromium-based browser.
 
+This is one of reasons I can't recommend any Chromium-based browser for daily use. But there are some great browsers on the market. Here is list of recommended browsers which I think is very good for daily use and the also supports Inline script filtering:
+
+###[IceCat](https://www.gnu.org/software/gnuzilla/)
+
+###[IceWeasel](https://wiki.debian.org/Iceweasel)
+
+###[Firefox](https://www.mozilla.com/firefox/)
+
+###[Waterfox](https://www.waterfoxproject.org)
+
+I don't recommend to use EasyList Czech and Slovak, because they are whitelisting (adding rules to whitelist something which overwrites other filters) some bad javascripts.
+
+But I can recommend [Prebake filter](http://prebake.eu/), which removes anoying cookies warnings.
+
+There is also screenshot from my uBlock Origin settings to see what filters I am using:
+![image](ublock-settings.png)
