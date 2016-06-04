@@ -2,7 +2,7 @@
 
 ## About
 
-Czech filter created for uBlock Origin.
+Czech filter created for [uBlock Origin](https://github.com/gorhill/uBlock).
 
 Just supplementary to other filters - I am blocking only content that pisses me (very annoying ads, some bad javascript, ...) off and are not blocked by some other filter I am using.
 
