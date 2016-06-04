@@ -32,5 +32,7 @@ I don't recommend to use EasyList Czech and Slovak, because they are whitelistin
 
 But I can recommend [Prebake filter](http://prebake.eu/), which removes anoying cookies warnings.
 
+Another useful filter which blocks known privacy trackers you can find [here](http://gnuzilla.gnu.org/filters/blacklist.txt).
+
 There is also screenshot from my uBlock Origin settings to see what filters I am using:
 ![image](ublock-settings.png)
