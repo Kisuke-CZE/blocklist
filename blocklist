@@ -25,17 +25,13 @@
 suzukiclub.cz#@#.reklama
 
 ! games.cz, tiscali.cz
-tiscali.cz##div[class^="xzone"]
-||tiscali.cz/*/partnerJsApi*
-||tiscali.cz/*/extra/*
-tiscali.cz##div[class^="row-main "]
-tiscali.cz###intAds
-tiscali.cz###cookie-bar
-||timg.cz/js/*
-||tiscali.cz/js/*
-tiscali.cz##div[style^="width:auto;px; height:auto;px"]
-||tiscali.cz/*typkodu*
-@@tiscali.cz/*gallery.js*
+||tiscali.cz^$script
+||timg.cz^$script
+||tiscali.cz^$inline-script
+tiscali.cz##.box-new-game.box-std
+tiscali.cz##.box-new-games.box-std
+tiscali.cz##.box-newsletter-hp.box-std
+tiscali.cz##.box-offer-ld-top.box-offer
 
 ! warforum.cz
 ||warforum.cz/post.swf
