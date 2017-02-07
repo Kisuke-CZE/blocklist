@@ -16,8 +16,9 @@
 ||googletagmanager.com
 ||1gr.cz/*reklama*
 ||1gr.cz/*.js*
-@@1gr.cz/*uni.js*
 @@1gr.cz/*videoplayer.js*
+@@1gr.cz/js/galerie/2011.js
+@@1gr.cz/js/uni/uni.js
 ||adform.net
 
 ! suzukiclub.cz
@@ -35,6 +36,8 @@ tiscali.cz##.box-offer-ld-top.box-offer
 
 ! warforum.cz
 ||warforum.cz/post.swf
+||warforum.cz^$script
+||warforum.cz^$inline-script
 
 ! lupa.cz, root.cz, mesec.cz, vitalia.cz, 120na80.cz
 vitalia.cz,120na80.cz,mesec.cz,lupa.cz,root.cz##script:contains(adBlock)
@@ -44,11 +47,6 @@ vitalia.cz,120na80.cz,mesec.cz,lupa.cz,root.cz##script:contains(adblock)
 ||lupa.cz/*.js*
 
 ! idnes.cz
-idnes.cz##script:contains(Track)
-idnes.cz##script:contains(track)
-idnes.cz##script:contains(Ads)
-idnes.cz##script:contains(bmone2)
-idnes.cz###selfart-box
 
 ! Titulky.com
 titulky.com###head_a2
