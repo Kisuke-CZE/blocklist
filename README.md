@@ -28,6 +28,8 @@ This is one of reasons I can't recommend any Chromium-based browser for daily us
 
 ### [Waterfox](https://www.waterfoxproject.org)
 
+### [Pale Moon](https://www.palemoon.org/)
+
 I don't recommend to use EasyList Czech and Slovak, because they are whitelisting (adding rules to whitelist something which overwrites other filters) some bad javascripts.
 
 But I can recommend [Prebake filter](http://prebake.eu/), which removes anoying cookies warnings.
