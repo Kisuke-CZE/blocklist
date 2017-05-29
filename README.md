@@ -20,19 +20,17 @@ My filter is using [Inline script filtering](https://github.com/gorhill/uBlock/w
 
 This is one of reasons I can't recommend any Chromium-based browser for daily use. But there are some great browsers on the market. Here is list of recommended browsers which I think is very good for daily use and the also supports Inline script filtering:
 
-###[IceCat](https://www.gnu.org/software/gnuzilla/)
+### [IceCat](https://www.gnu.org/software/gnuzilla/)
 
-###[IceWeasel](https://wiki.debian.org/Iceweasel)
+### [IceWeasel](https://wiki.debian.org/Iceweasel)
 
-###[Firefox](https://www.mozilla.com/firefox/)
+### [Firefox](https://www.mozilla.com/firefox/)
 
-###[Waterfox](https://www.waterfoxproject.org)
+### [Waterfox](https://www.waterfoxproject.org)
 
 I don't recommend to use EasyList Czech and Slovak, because they are whitelisting (adding rules to whitelist something which overwrites other filters) some bad javascripts.
 
 But I can recommend [Prebake filter](http://prebake.eu/), which removes anoying cookies warnings.
-
-Another useful filter which blocks known privacy trackers you can find [here](http://gnuzilla.gnu.org/filters/blacklist.txt).
 
 There is also screenshot from my uBlock Origin settings to see what filters I am using:
 ![image](ublock-settings.png)
