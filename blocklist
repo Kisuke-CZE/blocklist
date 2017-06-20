@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Kisuke's Czech supplementary blocklist
-! Last change: 2017-04-21
+! Last change: 2017-06-20
 ! Expires: 2 days
 ! Czech filter created for uBlock Origin
 ! Just supplementary to other filters - I am blocking only content that pisses me (very annoying ads, some bad javascript, ...) off and are not blocked by some other filter I am using.
@@ -83,3 +83,7 @@ poradte.cz##script:contains(AdBlock)
 
 ! hrej.cz
 ||hrej.cz^$inline-script
+
+! bikeway.cz
+||bikeway.cz^$script
+
