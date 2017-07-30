@@ -87,3 +87,5 @@ poradte.cz##script:contains(AdBlock)
 ! bikeway.cz
 ||bikeway.cz^$script
 
+! kotaku.com
+||kotaku.com^$script
