@@ -77,7 +77,6 @@ titulky.com###head > div[style*="overflow: hidden;"]
 ! Edna.cz
 edna.cz###rss-hub-case
 edna.cz##.leaderboard
-edna.cz##.col-side.col
 
 ! Smartmania.cz
 smartmania.cz##script:contains(anOptionModal)
