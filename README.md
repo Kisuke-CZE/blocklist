@@ -14,7 +14,7 @@ Just add this filter URL to your adblocking software:
 > https://raw.githubusercontent.com/Kisuke-CZE/blocklist/master/blocklist
 
 ## Firefox 57+ users
-If you upgraded to Firefox 57 or newer version, you must use uBlock Origin 1.14.23b11 or newer. Previous versions of uBlock Origin are not fully compatible with new Firefox versions (for example inline filtering is broken...).
+If you upgraded to Firefox 57 or newer version, you must use uBlock Origin 1.14.23b12 or newer. Previous versions of uBlock Origin are not fully compatible with new Firefox versions (for example inline filtering is broken...).
 
 If there is no stable build of uBlock on Mozilla's extensions website, please use version from [beta channel](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/versions/beta).
 
