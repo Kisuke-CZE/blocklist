@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Kisuke's Czech supplementary blocklist
-! Last change: 2018-01-04
+! Last change: 2018-01-12
 ! Expires: 2 days
 ! Czech filter created for uBlock Origin
 ! Just supplementary to other filters - I am blocking only content that pisses me (very annoying ads, some bad javascript, ...) off and are not blocked by some other filter I am using.
@@ -20,6 +20,7 @@
 @@1gr.cz/js/galerie/2011.js
 @@1gr.cz/js/uni/uni.js
 ||adform.net
+||presentation.lmc.cz
 
 ! suzukiclub.cz
 ||suzukiclub.cz/*/common_js*
@@ -99,3 +100,12 @@ poradte.cz##script:contains(AdBlock)
 
 ! kotaku.com
 ||kotaku.com^$script
+
+! zive.cz, mobilmania.cz
+||zive.cz,mobilmania.cz^$script
+zive.cz,mobilmania.cz##script:contains(addEventListener)
+zive.cz,mobilmania.cz##.ads
+@@||zive.cz,mobilmania.cz^*/flowplayer.min.js
+@@||zive.cz,mobilmania.cz^*/swfobject.js
+@@||zive.cz,mobilmania.cz^*/controls.youtube.js
+@@||zive.cz,mobilmania.cz/Client.Gallery/*
