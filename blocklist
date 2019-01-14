@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Kisuke's Czech supplementary blocklist
-! Last change: 2018-06-25
+! Last change: 2019-01-14
 ! Expires: 2 days
 ! Czech filter created for uBlock Origin
 ! Just supplementary to other filters - I am blocking only content that pisses me (very annoying ads, some bad javascript, ...) off and are not blocked by some other filter I am using.
@@ -29,6 +29,10 @@ suzukiclub.cz#@#.reklama
 ! nissanclub.cz
 ||nissanclub.cz/*/common_js*
 nissanclub.cz#@#.reklama
+
+! jeep-club.net
+jeep-club.net#@#.reklama
+||jeep-club.net/*/common_js*
 
 ! games.cz, tiscali.cz
 ||tiscali.cz^$script
