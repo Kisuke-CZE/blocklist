@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Kisuke's Czech supplementary blocklist
-! Last change: 2019-05-18
+! Last change: 2019-05-19
 ! Expires: 2 days
 ! Czech filter created for uBlock Origin
 ! Just supplementary to other filters - I am blocking only content that pisses me (very annoying ads, some bad javascript, ...) off and are not blocked by some other filter I am using.
@@ -35,13 +35,27 @@ jeep-club.net#@#.reklama
 ||jeep-club.net/*/common_js*
 
 ! games.cz, tiscali.cz
+! Trosku slozitejsi pomoci inline-script filteringu, kvuli funkcnosti videi a galerie. Nutno smaza cookies po aplikovani filtru.
 ||tiscali.cz^$script
 ||timg.cz^$script
-! ||tiscali.cz^$inline-script
+||tiscali.cz/js/exchange.html
 tiscali.cz##.box-new-game.box-std
 tiscali.cz##.box-new-games.box-std
 tiscali.cz##.box-newsletter-hp.box-std
 tiscali.cz##.box-offer-ld-top.box-offer
+@@tiscali.cz/js/*jquery*
+@@tiscali.cz/js/gallery.js
+@@tiscali.cz/js/video.bundle.js*
+@@tiscali.cz/ajax/video/
+tiscali.cz##script:contains(google_ad_client)
+tiscali.cz##script:contains(gemius)
+tiscali.cz##script:contains(GoogleAnalytics)
+tiscali.cz##script:contains(cpexSkin)
+tiscali.cz##script:contains(className.replace)
+tiscali.cz##script:contains(addEventListener)
+tiscali.cz##script:contains(TS_BAR_CONF)
+tiscali.cz##script:contains(bmone2n)
+tiscali.cz##script:contains(adblock)
 
 ! warforum.cz
 ||warforum.cz/post.swf
