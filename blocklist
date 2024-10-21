@@ -86,22 +86,13 @@ idnes.cz##^script:has-text(r.onload)
 aktualne.cz##^script:has-text(addEventListener)
 
 ! Titulky.com
-titulky.com###head_a2
-titulky.com###martevax-main
-||www.titulky.com/bannery/*
-||titulky.com^$script
-@@titulky.com/*easySlider*.js
-@@titulky.com/*atooltip.min.jquery.js
-@@titulky.com/*jquery.autocomplete.js
-@@titulky.com/downfnc.js
-titulky.com##^script:has-text(adbfetected)
-titulky.com##^script:has-text(fADB)
-titulky.com##^script:has-text(sklik)
-titulky.com##div[id*="bnx"]
-titulky.com###head:style(height: auto !important)
-titulky.com###bodycont:style(background: #fff !important)
-titulky.com###head > div[style*="overflow: hidden;"]
 titulky.com##^script:has-text(adbdown)
+titulky.com##^script:has-text(adbUser)
+titulky.com##^script:has-text(sssp)
+titulky.com##^script:has-text(gemius)
+titulky.com##^script:has-text(_satellite)
+titulky.com##^script:has-text(foolish_script)
+titulky.com###head:style(height: auto !important)
 
 ! Edna.cz
 edna.cz###rss-hub-case
