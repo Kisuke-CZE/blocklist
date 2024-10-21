@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Kisuke's Czech supplementary blocklist
-! Last change: 2023-01-12
+! Last change: 2024-10-21
 ! Expires: 2 days
 ! Czech filter created for uBlock Origin
 ! Just supplementary to other filters - I am blocking only content that pisses me (very annoying ads, some bad javascript, ...) off and are not blocked by some other filter I am using.
@@ -47,15 +47,15 @@ tiscali.cz##.box-offer-ld-top.box-offer
 @@tiscali.cz/js/gallery.js
 @@tiscali.cz/js/video.bundle.js*
 @@tiscali.cz/ajax/video/
-tiscali.cz##script:contains(google_ad_client)
-tiscali.cz##script:contains(gemius)
-tiscali.cz##script:contains(GoogleAnalytics)
-tiscali.cz##script:contains(cpexSkin)
-tiscali.cz##script:contains(className.replace)
-tiscali.cz##script:contains(addEventListener)
-tiscali.cz##script:contains(TS_BAR_CONF)
-tiscali.cz##script:contains(bmone2n)
-tiscali.cz##script:contains(adblock)
+tiscali.cz##^script:has-text(google_ad_client)
+tiscali.cz##^script:has-text(gemius)
+tiscali.cz##^script:has-text(GoogleAnalytics)
+tiscali.cz##^script:has-text(cpexSkin)
+tiscali.cz##^script:has-text(className.replace)
+tiscali.cz##^script:has-text(addEventListener)
+tiscali.cz##^script:has-text(TS_BAR_CONF)
+tiscali.cz##^script:has-text(bmone2n)
+tiscali.cz##^script:has-text(adblock)
 
 ! warforum.cz
 ||warforum.cz/post.swf
@@ -63,9 +63,9 @@ tiscali.cz##script:contains(adblock)
 ||warforum.cz^$inline-script
 
 ! lupa.cz, root.cz, mesec.cz, vitalia.cz, 120na80.cz, digizone.cz
-vitalia.cz,120na80.cz,mesec.cz,lupa.cz,root.cz,digizone.cz##script:contains(adBlock)
-vitalia.cz,120na80.cz,mesec.cz,lupa.cz,root.cz,digizone.cz##script:contains(AdBlock)
-vitalia.cz,120na80.cz,mesec.cz,lupa.cz,root.cz,digizone.cz##script:contains(adblock)
+vitalia.cz,120na80.cz,mesec.cz,lupa.cz,root.cz,digizone.cz##^script:has-text(adBlock)
+vitalia.cz,120na80.cz,mesec.cz,lupa.cz,root.cz,digizone.cz##^script:has-text(AdBlock)
+vitalia.cz,120na80.cz,mesec.cz,lupa.cz,root.cz,digizone.cz##^script:has-text(adblock)
 vitalia.cz,120na80.cz,mesec.cz,lupa.cz,root.cz,digizone.cz##.skyscraper-sticky
 ||vitalia.cz^$script
 ||120na80.cz^$script
@@ -76,14 +76,14 @@ vitalia.cz,120na80.cz,mesec.cz,lupa.cz,root.cz,digizone.cz##.skyscraper-sticky
 @@root.cz/webtemp/jsloader*.js
 
 ! idnes.cz
-idnes.cz##script:contains(addEventListener)
-idnes.cz##script:contains(r.onload)
+idnes.cz##^script:has-text(addEventListener)
+idnes.cz##^script:has-text(r.onload)
 
 ! novinky.cz
 ||novinky.cz^$inline-script
 
 ! aktualne.cz
-aktualne.cz##script:contains(addEventListener)
+aktualne.cz##^script:has-text(addEventListener)
 
 ! Titulky.com
 titulky.com###head_a2
@@ -94,23 +94,24 @@ titulky.com###martevax-main
 @@titulky.com/*atooltip.min.jquery.js
 @@titulky.com/*jquery.autocomplete.js
 @@titulky.com/downfnc.js
-titulky.com##script:contains(adbfetected)
-titulky.com##script:contains(fADB)
-titulky.com##script:contains(sklik)
+titulky.com##^script:has-text(adbfetected)
+titulky.com##^script:has-text(fADB)
+titulky.com##^script:has-text(sklik)
 titulky.com##div[id*="bnx"]
 titulky.com###head:style(height: auto !important)
 titulky.com###bodycont:style(background: #fff !important)
 titulky.com###head > div[style*="overflow: hidden;"]
+titulky.com##^script:has-text(adbdown)
 
 ! Edna.cz
 edna.cz###rss-hub-case
 edna.cz##.leaderboard
 
 ! Smartmania.cz
-smartmania.cz##script:contains(anOptionModal)
+smartmania.cz##^script:has-text(anOptionModal)
 
 ! Poradte.cz
-poradte.cz##script:contains(AdBlock)
+poradte.cz##^script:has-text(AdBlock)
 
 ! hrej.cz
 ||hrej.cz^$inline-script
@@ -123,7 +124,7 @@ poradte.cz##script:contains(AdBlock)
 
 ! zive.cz, mobilmania.cz
 ||zive.cz,mobilmania.cz^$script
-zive.cz,mobilmania.cz##script:contains(addEventListener)
+zive.cz,mobilmania.cz##^script:has-text(addEventListener)
 zive.cz,mobilmania.cz##.ads
 @@||zive.cz,mobilmania.cz^*/flowplayer.min.js
 @@||zive.cz,mobilmania.cz^*/swfobject.js
