@@ -1,5 +1,8 @@
 # Kisuke's Czech supplementary blocklist
 
+>[!WARNING]
+>⚠️ This repo has moved to [codeberg.org/Kisuke-CZE/blocklist](https://codeberg.org/Kisuke-CZE/blocklist)
+
 ## About
 
 Czech filter created for [uBlock Origin](https://github.com/gorhill/uBlock).
